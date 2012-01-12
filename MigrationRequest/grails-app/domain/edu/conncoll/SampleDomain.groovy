@@ -1,7 +1,10 @@
 package edu.conncoll
 
-class Sample {
+class SampleDomain {
 
+	String name
+	
     static constraints = {
+		name	blank: false
     }
 }
